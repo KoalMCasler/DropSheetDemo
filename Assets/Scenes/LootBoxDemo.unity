@@ -646,17 +646,53 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HUDText: {fileID: 1716662893}
   ChestTypes: []
-  WoodDropRate: 60
-  BronzeDropRate: 50
-  SilverDropRate: 40
-  GoldDropRate: 30
-  PlatinumDropRate: 20
+  WoodDropRate: 30
+  BronzeDropRate: 25
+  SilverDropRate: 20
+  GoldDropRate: 15
+  PlatinumDropRate: 10
+  commonChance: 0
+  uncommonChance: 0
+  rareChance: 0
+  epicChance: 0
+  legendaryChance: 0
+  uniqueChance: 0
   LootRarity: []
-  WLootChance: 000000000000000000000000000000000000000000000000
-  BLootChance: 000000000000000000000000000000000000000000000000
-  SLootChance: 000000000000000000000000000000000000000000000000
-  GLootChance: 000000000000000000000000000000000000000000000000
-  PLootChance: 000000000000000000000000000000000000000000000000
+  WLootChance:
+  - 42.5
+  - 25
+  - 15
+  - 10
+  - 7.5
+  - 0
+  BLootChance:
+  - 25
+  - 40
+  - 17.5
+  - 7.5
+  - 7.5
+  - 2.5
+  SLootChance:
+  - 15
+  - 25
+  - 25
+  - 17.5
+  - 12.5
+  - 5
+  GLootChance:
+  - 12.5
+  - 20
+  - 25
+  - 20
+  - 15
+  - 7.5
+  PLootChance:
+  - 0
+  - 15
+  - 30
+  - 27.5
+  - 17.5
+  - 10
 --- !u!4 &1743177847
 Transform:
   m_ObjectHideFlags: 0
