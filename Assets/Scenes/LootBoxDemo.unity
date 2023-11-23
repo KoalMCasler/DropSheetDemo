@@ -517,7 +517,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'DEBUG
+  m_text: 'Press Space to roll for loot!
 
 '
   m_isRightToLeft: 0
